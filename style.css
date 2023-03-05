@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;500;600;700&display=swap');
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --blue: #111d3a;
+    --rough-font: 'Playfair Display', serif;
+    --light-blue: rgba(212, 212, 228, 0.919);
+}
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--rough-font);
+    font-size: 18px;
+}
+img, video{
+    display: block;
+}
+h1, h2, h3, h4, p, label, legend{
+    font-family: inherit;
+    font-weight: 500;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(88, 16, 129, 0.695);
+    
+}
+
+.navbar{
+    display: contents;  
+    margin-top: 10px; 
+
+}
+.navbar .active {
+    background-color: rgba(251, 189, 2, 0.801);
+    border-radius: 50px;
+}
+
+.navbar-brand img{
+    width: 10rem;
+    height: 4rem;
+    border-radius: 50px;
+
+}
+.navbar a{
+    font-weight: 500;
+    color: #000000;
+}
+.movie-poster{
+    height: 30rem;
+}
+
+.movie-poster .card{
+    max-width: 70rem;
+    height: 90%;
+    position: relative;
+    border: #111d3a;
+    border-radius: 10px;
+}
+.movie-poster img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.movie-poster .card-body{
+    position: absolute;
+    z-index: 10;
+    color: rgba(245, 222, 179, 0.719);
+    padding-top: 15rem;
+    padding-right: 30rem;
+    
+}
+.booking .form-div{
+    width: 60rem;
+    margin-inline: auto;
+    align-items: center;    
+}
+.form-div input, select{
+    width: 25rem;
+    background-color: #ccd2e089;
+}
+.small-input{
+    width: 10rem;
+    height: 2rem;
+}
+.booking .btn{
+    width: 10rem;
+    background-color: purple;
+}
+
+.theater{
+    width: 50rem;
+    background-color: rgb(170, 32, 83);
+    border-radius: 10px;
+}
+.seats .col{
+    background-color: rgba(238, 161, 30, 0.79);
+    border-radius: 8px;
+}
+.payment i{
+    font-size: 3rem;
+    color: #111d3a;
+}
+.payment .small-input{
+    width: 10rem;
+    height: 2rem;
+}
+.payment .btn{
+    width: 10rem;
+    background-color: purple;
+}
